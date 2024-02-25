@@ -1,0 +1,34 @@
+class Student:
+def __init__(self,Name,Contact):
+print(f"New object {self} created")
+father_name = input("Father Name:")
+mother_name = input("Mother Name:")
+self.address = input("enter the address of the student")
+self.marks = {}
+self.percentage = (sum(self.marks)/(len(marks)*100))*100
+self.Grade = None
+self.intrests = []
+self.name = Name
+self.contact = Contact
+self.mother_name = mother_name
+self.father_name = father_name
+def marks_entry(self,subject,marks):
+self.marks[subject] = marks
+def sum(self.marks):
+Sum = 0
+list = self.marks.values()
+for r in range (len(list)):
+Sum += list[r]
+return Sum
+def showcase(self):
+print(f"\t\tName:{self.name}\n\t\tContact: {self.contact}\n\t\tGrade: {self.Grade}\n\t\tIntrests:")
+if len(self.intrests)==0:
+print("No intrests")
+else:
+for r in range(len(self.intrests)):
+print(f"\t\t{r+1}. {self.intrests[r]")
+print(f"Grade:{self.Grade}")
+def add_intrest(self,intrest):
+self.intrests.append(intrest)
+def edit_address(self):
+n_address = input("Enter student's New address")
